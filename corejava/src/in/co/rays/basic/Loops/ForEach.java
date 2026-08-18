@@ -1,4 +1,4 @@
-package in.co.rays.basic;
+package in.co.rays.basic.Loops;
 
 public class ForEach {
 	public static void main(String[] args) {

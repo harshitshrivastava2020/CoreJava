@@ -1,4 +1,4 @@
-package in.co.rays.basic;
+package in.co.rays.basic.Exercise;
 
 public class Harmonic {
 	 public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package in.co.rays.basic;
+package in.co.rays.basic.Tasks;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package in.co.rays.basic;
+package in.co.rays.basic.Tasks;
 
 public class SwapNumbers {
 	public static void main(String[] args) {

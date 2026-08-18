@@ -1,4 +1,4 @@
-package in.co.rays.basic;
+package in.co.rays.basic.ControlStatement;
 
 public class IfElseCondition {
 	public static void main(String[] args) {

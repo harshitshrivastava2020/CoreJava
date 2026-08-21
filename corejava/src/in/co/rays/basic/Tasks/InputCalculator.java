@@ -35,7 +35,7 @@ public class InputCalculator {
 			System.out.println("Divisible of a/b" + " " + (a / b));
 			break;
 		default:
-			System.out.println("Multiplication of a*b" + " ");
+			System.out.println("opr err");
 			break;
 		}
 		

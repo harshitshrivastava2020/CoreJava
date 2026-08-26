@@ -1,0 +1,46 @@
+package in.co.rays.Encapsulation;
+
+import java.util.Date;
+
+public class Person {
+	private String name;
+	private Date dob;
+	private String address;
+	
+	public final static int AVG_AGE = 18;
+	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+	
+	
+	public int getAge(Date dob) {
+		Date dd = new Date();
+
+		int age = dd.getYear() - dob.getYear();
+
+		return age;
+	}
+}
+

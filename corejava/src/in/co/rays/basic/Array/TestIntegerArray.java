@@ -1,6 +1,6 @@
 package in.co.rays.basic.Array;
 
-public class TestArray {
+public class TestIntegerArray {
 	public static void main(String[] args) {
 		int []a = {6,9,10,11,12,13,14};
 		int sum = 0;

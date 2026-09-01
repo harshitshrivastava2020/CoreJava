@@ -5,13 +5,15 @@ public class RunAutomobile {
 		Automobile car = new Automobile();
 
 		car.setColor("Red");
-		car.setSpeed(80);
+		car.setSpeed(10);
 		car.setMake("Tata");
 
 		System.out.println("car color: " + car.getColor());
-		System.out.println("car speed: " + car.getSpeed()+"km/h");
+		System.out.println("car speed: " + car.getSpeed() + "km/h");
 		System.out.println("car company: " + car.getMake());
-
+		car.Break();
+		car.accelerator();
+		car.changeGear();
 	}
 
 }

@@ -1,7 +1,5 @@
 package in.co.rays.Encapsulation;
 
-import java.util.Date;
-
 public class Account {
 	private String number;
 	private String accountType;
@@ -11,20 +9,20 @@ public class Account {
 		this.number = number;
 	}
 
-	public void setAccountType(String accountType) {
-		this.accountType = accountType;
-	}
-
-	public void setBalance(Double balance) {
-		this.balance = balance;
-	}
-
 	public String getNumber() {
 		return number;
 	}
 
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
 	public String getAccountType() {
 		return accountType;
+	}
+
+	public void setBalance(Double balance) {
+		this.balance = balance;
 	}
 
 	public Double getBalance() {
@@ -40,7 +38,7 @@ public class Account {
 		return Deposite;
 	}
 
-	public double withdrawl(Double balance ) {
+	public double withdrawl(Double balance) {
 
 		int amount = 999912;
 		if (amount > balance) {
@@ -68,7 +66,6 @@ public class Account {
 	public double payBill(Double balance) {
 
 		int bill = 912;
-		
 
 		double PayBill = balance - bill;
 

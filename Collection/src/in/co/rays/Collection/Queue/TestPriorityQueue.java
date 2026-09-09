@@ -8,7 +8,8 @@ public class TestPriorityQueue {
 
 		Queue q = new PriorityQueue();
 		q.add("Harshit");
-		// q.add(5);// Runtime Exception :ClassCastException because first i would store
+		// q.add(5);// Runtime Exception :ClassCastException because first data type i
+		// would store
 		// String element
 		q.add("Hari");
 

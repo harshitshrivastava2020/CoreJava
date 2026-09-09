@@ -4,11 +4,13 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class TestQueueWithArrayDeque {
+	// Queue uses FIFO (First In First Out)
+	// Queue is interface
 	public static void main(String[] args) {
 		Queue q = new ArrayDeque();
 
 		for (char h = 'a'; h <= 'z'; h++) {
-			q.offer(h);
+			q.offer(h);// queue's add method
 		}
 		System.out.println("queue: " + q);
 		System.out.println("this is the first element " + q.peek());// Queue uses FIFO so peek() methods provides first

@@ -56,28 +56,19 @@ public class Automobile {
 
 		switch (NO_OF_GEARS) {
 		case 1: {
-			System.out.println("GEAR is: " + NO_OF_GEARS + " max speed 20km/h");
-			break;
+			System.out.println("max speed 20km/h");
 		}
 		case 2: {
-			System.out.println("GEAR is: " + NO_OF_GEARS + " max speed 40km/h");
-			break;
+			System.out.println("max speed 40km/h");
 		}
 		case 3: {
-			System.out.println("GEAR is: " + NO_OF_GEARS + " max speed 60km/h");
-			break;
+			System.out.println("max speed 60km/h");
 		}
 		case 4: {
-			System.out.println("GEAR is: " + NO_OF_GEARS + " max speed 80km/h");
-			break;
+			System.out.println("max speed 80km/h");
 		}
 		case 5: {
-			System.out.println("GEAR is: " + NO_OF_GEARS + " max speed 100km/h");
-			break;
-		}
-		default: {
-			System.out.println("invalid gear");
-			break;
+			System.out.println("max speed 100km/h");
 		}
 		}
 

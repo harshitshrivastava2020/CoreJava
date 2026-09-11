@@ -16,12 +16,12 @@ public class TestAutoboxingAndUnboxing {
 		System.out.println("---------");
 
 		String str = "45";
-		int c = Integer.parseInt(str); // parse string to int
+		int c = Integer.parseInt(str); // parse string into int
 		System.out.println("string to integer: " + c);
 
 		System.out.println("---------");
 
-		String s = String.valueOf(c); // parse int to string
+		String s = String.valueOf(c); // parse int into string
 		System.out.println("integer to string: " + s);
 	}
 }

@@ -23,8 +23,8 @@ public class TestEmployee {
 
 		System.out.println("--------");
 
-		for (Object o : list) {
-			System.out.println(o);
+		for (Object obj : list) {
+			System.out.println(obj);
 		}
 
 		System.out.println("--------");
@@ -33,8 +33,8 @@ public class TestEmployee {
 
 		while (it.hasNext()) {
 			
-			Object o = it.next();
-			System.out.println(o);
+			Object obj1 = it.next();
+			System.out.println(obj1);
 		}
 	}
 }
